@@ -1,18 +1,19 @@
-# BEYOND THE 90. — v0.3 photography update
+# BEYOND THE 90. — Version 0.4 Editorial Polish
 
-Upload ALL files from this ZIP to the ROOT of your existing GitHub repository (`beyond-the-90`):
-- index.html (replace existing)
-- styles.css (replace existing)
-- script.js (unchanged functionality)
-- photo-credits.html (new)
-- README.md (replace existing)
+Static website update, built from Version 0.3.
 
-Your connected Netlify site should redeploy automatically. Open https://beyondthe90.netlify.app/ and hard refresh (Ctrl+Shift+R).
+## What changed
+- Improved mobile headline hierarchy, image crops, and spacing.
+- Removed distracting large typography from the photographs.
+- Added photographic archive thumbnails for player features, and restrained tactical diagrams for analysis rows.
+- Replaced invented Club A/Club B fixture cards with a clearly labelled verified-data-pending panel.
+- Retained article navigation, bookmark/share actions, search, club list and table preview.
 
-## Photography
-Real archive football photography from Wikimedia Commons, with links and licence details in `photo-credits.html`. Selected images are CC0 1.0. Images are remotely loaded via `Special:FilePath`, so internet access is needed and Wikimedia may occasionally block or rate-limit image requests. The original graphic backgrounds remain as fallbacks.
+## Publish to GitHub + Netlify
+1. Extract this ZIP (do not upload the ZIP itself).
+2. In your GitHub beyond-the-90 repository, replace the five existing root files with the matching files in this archive. GitHub may not permit overwriting existing files via the upload form: if so, use the pencil editor for each existing file, or the GitHub web editor.
+3. Commit to main. Netlify deploys automatically.
+4. Check the site and hard refresh (Ctrl + Shift + R).
 
-Images are illustrative only and do NOT correspond to the fictional demo articles or the 2026/27 season. No verified live results or player data are included.
-
-## If GitHub will not overwrite an existing file
-Open that file in the GitHub repository, click the pencil icon, replace its contents with the matching extracted file's contents, and commit. Upload new files separately. Keep all files in the repository root.
+## Editorial transparency
+All story copy is demonstration content, not verified live coverage. Wikimedia Commons archive photographs are illustrative, hosted externally, and credited in photo-credits.html. No live 2026/27 football data is claimed.
