@@ -1,16 +1,13 @@
-# BEYOND THE 90. — Version 0.6
+BEYOND THE 90. / VERSION 0.7
 
-This is a complete replacement package based on v0.5.
+Multi-section editorial and functionality update.
 
-## New features
-- Stories category filters and saved reading list (local browser storage)
-- Explore recent searches with Clear all (local browser storage)
-- Article reading progress and related reading
-- Four-stage, manually controlled illustrative tactical explainer
-- Preserves existing match centre, club profiles, standings, and Netlify server-side football data integration
+NEW: search across stories, clubs and provider-fed matches; match filters; manual data refresh; homepage standings snapshot when verified data is available; article share links open the correct article after a reload; accessible focus states; restrained editorial controls.
 
-## Deploy
-Upload individual files to the root of your GitHub repository, preserving `netlify/functions/football.js` inside its nested folder. Commit to main. Netlify will build automatically. Do not upload the ZIP itself.
+UNCHANGED: the existing photography and credits, club profiles, tactical walkthrough, reading list, Netlify function and configuration.
 
-## Important
-This remains a prototype with demo editorial articles and illustrative tactical stages. The live football-data feed requires a provider API key in Netlify's environment settings. No match events, standings, or 2026/27 results are fabricated. Public Wikimedia photos are illustrative and credited in photo-credits.html.
+IMPORTANT: No 2026/27 statistics are fabricated. A provider key must be configured in Netlify environment variables to display verified competition data. Do not put API keys in GitHub. Some football-data.org free-tier access may not cover the current Premier League season.
+
+INSTALL: Upload the individual contents of this ZIP into the ROOT of your existing GitHub repository, preserving netlify/functions/football.js. Replace matching files, commit to main, and allow Netlify to redeploy. If GitHub web upload refuses an existing file, use the file pencil editor or a desktop Git client. Do not upload the ZIP as a file in the repository.
+
+For a safer update, first replace styles.css and script.js, then index.html, then remaining files.
